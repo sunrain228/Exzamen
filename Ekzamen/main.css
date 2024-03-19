@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    background-color: #FFFFE0;
+}
+
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 20px 0;
+	text-align: center
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #D2B48C;
+    border: unset;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-bottom: 2px solid #7c9ab7;
+}
